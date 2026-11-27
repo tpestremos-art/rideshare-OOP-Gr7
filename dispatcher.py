@@ -1,6 +1,6 @@
 class RideDispatcher:
     def process_ride_queue(self, ride_list):
-        print("---Disrupting Ride Queue---")
+        print("---Dispatching Ride Queue---")
         total_revenue = 0.0
 
         for ride in ride_list:
